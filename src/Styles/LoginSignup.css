@@ -1,0 +1,69 @@
+.container{
+    margin :30px auto;
+    background-color:white;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center; 
+     height: 450px;
+     border-radius: 10px;
+}
+.header{
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    color: blue;
+}
+.inputs {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  input {
+    border-radius: 10px;
+    max-width: 300px;
+    height: 50px;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+  }
+  .input input {
+
+    background-color: rgb(193, 184, 184);
+    padding: 20px;
+    margin: 5px;
+    border: none; 
+    outline:none;
+    margin:10px ;
+    width: calc(100% - 50px); 
+  }
+  .f-password{
+   margin: 0;
+   padding: 3px;
+  }
+  .f-password span{
+    color: blue;
+    cursor: pointer;
+  }
+  .submit{
+ padding: 30px;
+ 
+  }
+  .submit container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+  }
+  .submit {
+    margin: 15px 25px;
+    background-color:purple;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    width: 25%;
+    cursor: pointer;
+  }
+  .grey{
+    background-color: grey;
+  }
